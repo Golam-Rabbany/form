@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(246, 255, 123);
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.personal, .address, .educational{
+    color: red;
+    margin: 0 auto;
+    text-align: center;
+}
+.personal{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+label{
+    font-size: 18px;
+    margin-right: 10px;
+}
+input[type=text],input[type=password],input[type=email]{
+    width: 70%;
+    padding: 7px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.educational{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.address{
+    margin-top: 30px;
+}
+button .mySubmit{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex
+}
+.mySubmit{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fff;
+    background: #4acef4;
+    border: none;
+}
+.mySubmit:hover{
+    border: none;
+    background: #fff;
+    color: #555;
+}
+
+#name{
+    margin-left: 26px;
+}
+#email{
+    margin-left: 29px;
+}
+#contact{
+    margin-left: 15px;
+}
+#male{
+    margin-left: 20px;
+}
+#degree{
+    font-size: 17px;
+    margin-left: 21px
+}
+#engineering{
+    font-size: 17px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="/action_page.php" target="_blank"  class="myForm">
+        <h1 class="personal">Personal Details</h1>
+    <div class="myName">
+        <label for="name">Name</label>&nbsp;
+        <input type="text" name="myName" id="name">
+    </div>
+        <br>
+    <div class="myPass">
+        <label for="pass">Password</label>&nbsp;
+        <input type="password" name="password" id="pass">
+    </div>
+        <br>
+    <div class="myMail">
+        <label for="email">Email</label>
+        <input type="email" name="mail" id="email">
+    </div>
+        <br>
+    <div class="myGender">
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="remale">Female</label>
+    </div>
+        <br>
+    <div class="myContact">
+        <label for="contact">Contact</label>
+        <input type="text" name="contact" id="contact">
+        <br>
+        <h1 class="educational">Educational Qualification</h1>
+    </div>
+        <br>
+        <div class="myDegree">
+        <label for="degree">Degree</label>
+        <select name="degree" id="degree">
+            <option value="SSC">SSC</option>
+            <option value="HSC">HSC</option>
+            <option value="BSC">BSC</option>
+            <option value="MSC">MSC</option>
+        </select>
+    </div>
+        <br>
+    <div class="myEngineer">
+        <label for="engineering">Engineering</label>
+        <select name="engineering" id="engineering">
+            <option value="computer">Computer</option>
+            <option value="Electrical">Electrical</option>
+            <option value="Mechanical">Mechanical</option>
+            <option value="Arcitecher">Arcitecher</option>
+        </select>
+    </div>
+        <br>
+    <div class="myHobie">
+        <label for="hobbie">Hobbies</label>
+        <input type="checkbox" name="chess" id="chess" value="Chess">
+        <label for="chess">Chess</label>
+        <input type="checkbox" name="books" id="book" value="book">
+        <label for="book"> Reading Books</label>
+    </div>
+        <br>
+        <h1 class="address">Address</h1>
+        <br>
+        <textarea name="textarea" id="address" cols="55" rows="6" placeholder="about yourself"></textarea>
+        <br>
+        <p>Attatch Resume <span><button type="button" class="myButton">Choose File</button></span>No file chosen</p>
+        <br>
+        <button type="submit" class="mySubmit">SUBMIT</button>
+
+
+    </form>
+    
+</body>
+</html>
